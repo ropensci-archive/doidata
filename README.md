@@ -24,7 +24,7 @@ the workflow of using archived data to a single line, like so:
 
 `my_data <- datadoi::get_data("10.1234/somerecord987/FILENAME.csv")`
 
-This would parse the DOI, navigate the repository API (Figshare, Zenodo, Dryad, Open Science Framework, etc.) to find the associated file, and download it.  If the repository has metadata describing how the data should be parsed, it will be used.  Otherwise it can guess using [*rio*](https://github.com/leeper/rio) or take an argument to return the information raw or write it to disk.
+This would parse the DOI, navigate the repository API (Figshare, Zenodo, Dryad, Open Science Framework, etc.) to find the associated file, and download it.  If the repository has metadata describing how the data should be parsed, it will be used.  Otherwise it can guess using [**rio**](https://github.com/leeper/rio) or take an argument to return the information raw or write it to disk.
 
 ## Some notes:
 
@@ -32,6 +32,8 @@ This would parse the DOI, navigate the repository API (Figshare, Zenodo, Dryad, 
 these would be secondary as the goal would be encourage use archival repositories
 -  Versioning would be handled on the repository side, though `get_data()` could take a
    `version=` argument for those repos that have versions but not versioned DOIs (e.g., Figshare)
+-  This differes from [**datastorr**](https://ropenscilabs.github.io/datastorr/) in that it's not a framework
+   for versioning data, and it seeks to _avoid_ creating new packages for data.  It could borrow some of **datastorr** cacheing components, though.
 -  Download cacheing would be optional
 -  Github-linked Zenodo repositories unfortunately don't store files individually, but as a single
    ZIP of the GitHub release.  The package should detect this, download, (cache), unzip and retrieve
