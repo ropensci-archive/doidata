@@ -9,7 +9,7 @@ _This is mostly an idea I am hoping others will pick up - Noam_
 # Introduction
 
 At rOpenSci and in associated open science groups, we often encourage scientists
-to deposit and data in public repositories that have stable, long-term archival
+to deposit and use data in public repositories that have stable, long-term archival
 infrastructure and robust metadata.  Such repositories include Zenodo, Figshare,
 Dryad, and a variety of more specific ones. A frequent mode of use is to download files from
 these repositories, break the link with the original version or metadata, and
