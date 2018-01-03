@@ -4,7 +4,7 @@
 
 Simple repository data access
 
-_This is mostly an idea I am hoping others will pick up - Noam_
+_This is mostly an idea I am hoping others will join in on. Feel free to throw ideas in the issues or [amend this README](https://github.com/ropenscilabs/doidata/edit/master/README.md)! - Noam_
 
 # Introduction
 
