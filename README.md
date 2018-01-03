@@ -42,3 +42,4 @@ these would be secondary as the goal would be encourage use archival repositorie
 that by keeping the DOI in the code you maintain a conceptual link the original record.
 -  This probably requires up-to-date packages on the key repositories (Figshare, Zenodo, OSF. Dryad, DataONE), though quick-and-dirty methods might be doable for some repositories rather than wait for
 full-blown API clients.
+-  Default behavior should probably include a message with the citation and version of the data.  The idea is to have a ["pit of success"](https://blog.codinghorror.com/falling-into-the-pit-of-success/) that makes it easiest to include a citation to data and keep the link to the original data.
